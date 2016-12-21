@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		89129B421E0A932E00A79A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89129B411E0A932E00A79A1A /* AppDelegate.swift */; };
-		89129B441E0A932E00A79A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89129B431E0A932E00A79A1A /* ViewController.swift */; };
+		89129B441E0A932E00A79A1A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89129B431E0A932E00A79A1A /* MainVC.swift */; };
 		89129B471E0A932E00A79A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89129B451E0A932E00A79A1A /* Main.storyboard */; };
 		89129B491E0A932E00A79A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89129B481E0A932E00A79A1A /* Assets.xcassets */; };
 		89129B4C1E0A932E00A79A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89129B4A1E0A932E00A79A1A /* LaunchScreen.storyboard */; };
+		8963B0631E0AAA550043E3E7 /* Minecraftia-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8963B0621E0AAA550043E3E7 /* Minecraftia-Regular.ttf */; };
+		8963B0651E0AAF490043E3E7 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8963B0641E0AAF490043E3E7 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		89129B3E1E0A932E00A79A1A /* Retro Space Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Space Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89129B411E0A932E00A79A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89129B431E0A932E00A79A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89129B431E0A932E00A79A1A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		89129B461E0A932E00A79A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89129B481E0A932E00A79A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89129B4B1E0A932E00A79A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89129B4D1E0A932E00A79A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8963B0621E0AAA550043E3E7 /* Minecraftia-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Minecraftia-Regular.ttf"; sourceTree = "<group>"; };
+		8963B0641E0AAF490043E3E7 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				89129B411E0A932E00A79A1A /* AppDelegate.swift */,
-				89129B431E0A932E00A79A1A /* ViewController.swift */,
+				8963B0621E0AAA550043E3E7 /* Minecraftia-Regular.ttf */,
+				8963B0641E0AAF490043E3E7 /* btn.wav */,
+				89129B431E0A932E00A79A1A /* MainVC.swift */,
 				89129B451E0A932E00A79A1A /* Main.storyboard */,
 				89129B481E0A932E00A79A1A /* Assets.xcassets */,
 				89129B4A1E0A932E00A79A1A /* LaunchScreen.storyboard */,
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8963B0651E0AAF490043E3E7 /* btn.wav in Resources */,
 				89129B4C1E0A932E00A79A1A /* LaunchScreen.storyboard in Resources */,
+				8963B0631E0AAA550043E3E7 /* Minecraftia-Regular.ttf in Resources */,
 				89129B491E0A932E00A79A1A /* Assets.xcassets in Resources */,
 				89129B471E0A932E00A79A1A /* Main.storyboard in Resources */,
 			);
@@ -136,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89129B441E0A932E00A79A1A /* ViewController.swift in Sources */,
+				89129B441E0A932E00A79A1A /* MainVC.swift in Sources */,
 				89129B421E0A932E00A79A1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				89129B521E0A932E00A79A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
